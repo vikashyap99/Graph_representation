@@ -78,10 +78,10 @@ class Graph(object):
 
 def main():
     graph = Graph()
-    graph.insert_edge(100, 1, 2)
-    graph.insert_edge(101, 1, 3)
-    graph.insert_edge(102, 1, 4)
-    graph.insert_edge(103, 3, 4)
+    graph.insert_edge(10, 1, 2)
+    graph.insert_edge(11, 1, 3)
+    graph.insert_edge(12, 1, 4)
+    graph.insert_edge(13, 3, 4)
 
     print(graph.EdgeList())
     print(graph.AdjencyList())
